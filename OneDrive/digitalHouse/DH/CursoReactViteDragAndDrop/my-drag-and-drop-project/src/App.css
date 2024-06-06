@@ -7,47 +7,21 @@
   background-color: #f0f0f0;
 }
 
-.flower-container {
-  position: relative;
-  width: 500px;
-  height: 500px;
+nav {
+  margin-bottom: 20px;
 }
 
-.flower-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+nav ul {
+  list-style: none;
+  padding: 0;
 }
 
-.dropzone {
-  position: absolute;
-  border: 2px dotted #999;
-  background-color: rgba(255, 255, 255, 0.5);
-  width: 129px;
-  height: 48px;
+nav ul li {
+  display: inline;
+  margin-right: 10px;
 }
 
-#petals-dropzone { top: 76px; left: 419px; }
-#pistil-dropzone { top: 370px; left: 410px; }
-#stamens-dropzone { top: 0px; left: 206px; }
-#ovules-dropzone { top: 111px; left: -49px; }
-#sepals-dropzone { top: 449px; left: 294px; }
-
-.draggables {
-  display: flex;
-  gap: 10px;
-  margin-top: 20px;
-}
-
-.draggable {
-  background-color: #ececec;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  cursor: grab;
-  width: 129px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+nav ul li a {
+  text-decoration: none;
+  color: #007bff;
 }
